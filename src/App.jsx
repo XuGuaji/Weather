@@ -47,6 +47,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className='wr'>Weather Report<span className='author'>By XU. & MA.</span></h1>
       <div className="search-box">
         <input type="text" value={city} onChange={(e) => setCity(e.target.value)} />
         <button onClick={handleSearch}>Search</button>

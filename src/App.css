@@ -13,6 +13,38 @@
   min-height: 100vh;
   background-image: linear-gradient(to right, #2196f3, #90caf9); 
 }
+.wr {
+  color: #ecebeb;
+  padding: 40px;
+  display: flex;
+}
+/* The CSS code for the wr class */
+.author {
+  /* Using linear-gradient function to create a color gradient */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* Setting the background size to cover the element */
+  background-size: 400% 400%;
+  /* Using animation property to create an animation effect */
+  animation: gradient 10s ease infinite;
+  margin: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  font-size: 18px;
+}
+
+
+/* The @keyframes rule for the gradient animation */
+@keyframes gradient {
+  /* Changing the background position at different percentages */
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .search-box {
   display: flex;
